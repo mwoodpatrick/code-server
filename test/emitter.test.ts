@@ -20,7 +20,7 @@ describe("emitter", () => {
       jest.restoreAllMocks()
     })
 
-    it("should return an Emitter", async () => {
+    it("should run the correct callbacks", async () => {
       const HELLO_WORLD = "HELLO_WORLD"
       const GOODBYE_WORLD = "GOODBYE_WORLD"
       const mockCallback = jest.fn(() => "Mock function called")
