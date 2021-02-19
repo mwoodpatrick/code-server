@@ -36,7 +36,7 @@ There are several differences, however. You must:
 - Have [yarn](https://classic.yarnpkg.com/en/) installed (which is used to install JS packages and run development scripts)
 - Have [nfpm](https://github.com/goreleaser/nfpm) (which is used to build `.deb` and `.rpm` packages and [jq](https://stedolan.github.io/jq/) (used to build code-server releases) installed
 
-The [CI container](../ci/images/debian8/Dockerfile) is a useful reference for all
+The [CI container](../ci/images/debian10/Dockerfile) is a useful reference for all
 of the dependencies code-server uses.
 
 ## Development Workflow
